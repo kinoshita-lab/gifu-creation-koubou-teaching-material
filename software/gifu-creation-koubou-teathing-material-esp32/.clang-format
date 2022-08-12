@@ -1,0 +1,8 @@
+Standard: Auto
+BasedOnStyle: Google
+NamespaceIndentation: None
+FixNamespaceComments: true
+PointerAlignment: Left
+DerivePointerAlignment: false
+SortIncludes: false
+ColumnLimit: 0

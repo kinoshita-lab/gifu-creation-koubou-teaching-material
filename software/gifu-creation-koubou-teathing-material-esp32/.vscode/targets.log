@@ -1,0 +1,379 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-pc-mingw32
+
+# Make data base, printed on Fri Aug 12 16:54:58 2022
+
+# Variables
+
+# environment
+POWERSHELL_DISTRIBUTION_CHANNEL = MSI:Windows 10 Pro
+# automatic
+?F = $(notdir $?)
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+KISYS3DMOD = C:\Program Files\KiCad\share\kicad\modules\packages3d
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+KICAD_TEMPLATE_DIR = C:\Program Files\KiCad\share\kicad\template
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+PLATFORMIO_IDE = 2.5.1
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile
+CURDIR := d:/Users/saita/Documents/PlatformIO/Projects/esp32_lchika
+# default
+SHELL := sh.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+VSCODE_NLS_CONFIG = {"locale":"ja","availableLanguages":{"*":"ja"},"_languagePackId":"29207410cd77a70b4b25e4878dda93be.ja","_translationsConfigFile":"C:\\Users\\saita\\AppData\\Roaming\\Code\\clp\\29207410cd77a70b4b25e4878dda93be.ja\\tcf.json","_cacheRoot":"C:\\Users\\saita\\AppData\\Roaming\\Code\\clp\\29207410cd77a70b4b25e4878dda93be.ja","_resolvedLanguagePackCoreLocation":"C:\\Users\\saita\\AppData\\Roaming\\Code\\clp\\29207410cd77a70b4b25e4878dda93be.ja\\6d9b74a70ca9c7733b29f0456fd8195364076dda","_corruptedFile":"C:\\Users\\saita\\AppData\\Roaming\\Code\\clp\\29207410cd77a70b4b25e4878dda93be.ja\\corrupted.info","_languagePackSupport":true}
+# environment
+NVM_HOME = C:\Users\saita\AppData\Roaming\nvm
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW
+# makefile
+MAKEFILE_LIST := 
+# environment
+TMP = C:\Users\saita\AppData\Local\Temp
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+NVM_SYMLINK = C:\Users\saita\local\nodejs
+# environment
+CDS_LISTENER_MODE = LOCAL
+# environment
+VSCODE_CWD = C:\Users\saita\src\kinoshita-lab\gifu-creation-koubou-teaching-material\hardware
+# environment
+NO_PROXY = 127.0.0.1
+# environment
+NODIST_X64 = 1
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+C_INCLUDE_PATH = C:\Users\saita\scoop\apps\gcc\current\include
+# environment
+GHCUP_INSTALL_BASE_PREFIX = C:\
+# environment
+CHOCOLATEYLASTPATHUPDATE = 133013006530606660
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+ONEDRIVE = D:\Users\saita\OneDrive
+# environment
+USERPROFILE = C:\Users\saita
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environment
+RUBYOPT = -Eutf-8
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+GOPATH = C:\Users\saita\local\go
+# environment
+DOKANLIBRARY1 = C:\Program Files\Dokan\DokanLibrary-1.0.0\
+# environment
+NUMBER_OF_PROCESSORS = 16
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives
+# environment
+CABAL_DIR = C:\cabal
+# environment
+CPLUS_INCLUDE_PATH = C:\Users\saita\scoop\apps\gcc\current\include
+# automatic
+%F = $(notdir $%)
+# default
+MAKEFILES := 
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_1200_EAETLNXSPKJFMKIL
+# environment
+COMPUTERNAME = KINORAMA
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = saita
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = C:\Users\saita
+# environment
+CHOCOLATEYTOOLSLOCATION = C:\tools
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\saita\AppData\Roaming\Code\CachedData\6d9b74a70ca9c7733b29f0456fd8195364076dda
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\KINORAMA
+# environment
+MSYS2_PATH_TYPE = inherit
+# environment
+ONEDRIVECONSUMER = D:\Users\saita\OneDrive
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = KINORAMA
+# environment
+PLATFORMIO_PATH = C:\Users\saita\.platformio\python3;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\saita\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\CMake\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\PROGRA~1\JPKI;C:\Program Files (x86)\Calibre2\;C:\Program Files\LLVM\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\GTK2-Runtime\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\saita\local\gauche\bin;C:\Program Files\WezTerm;C:\Users\saita\AppData\Roaming\nvm;C:\Users\saita\local\nodejs;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\usbipd-win\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\PowerShell\7\;C:\Program Files\Git\cmd;C:\Program Files (x86)\gsudo\;C:\Users\saita\local\zig;C:\Users\saita\src\korg\x21212_NTS-1_digital_kit_mkII\tools\STM-OpenOCD\bin;C:\msys64\ucrt64\bin;C:\Users\saita\scoop\apps\yarn\current\global\node_modules\.bin;C:\Users\saita\scoop\apps\yarn\current\bin;C:\Users\saita\scoop\apps\gpg\current\bin;C:\Program Files\qemu;C:\Users\saita\local\ccls\Release;C:\Users\saita\local\llvm-project\Release\bin;C:\Users\saita\local\go\bin;C:\Users\saita\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\saita\AppData\Local\Programs\Python\Python310\;C:\Users\saita\scoop\apps\gcc\current\bin;C:\Users\saita\scoop\shims;C:\hugo_extended_0.83.1_Windows-64bit;C:\Program Files\Racket;C:\Users\saita\AppData\Roaming\xPacks\@xpack-dev-tools\qemu-arm\2.8.0-10.1\.content\bin;C:\Users\saita\.cargo\bin;C:\Users\saita\AppData\Roaming\Python\Python38\Scripts;C:\Ruby27-x64\bin;C:\Program Files (x86)\GnuWin32\bin;C:\Program Files\Microsoft Visual Studio\2022\Community\Msbuild\Current\Bin;C:\Users\saita\AppData\Local\Microsoft\WindowsApps;C:\Users\saita\AppData;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\saita\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\CMake\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\PROGRA~1\JPKI;C:\Program Files (x86)\Calibre2\;C:\Program Files\LLVM\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\GTK2-Runtime\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\saita\local\gauche\bin;C:\Program Files\WezTerm;C:\Users\saita\AppData\Roaming\nvm;C:\Users\saita\local\nodejs;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\usbipd-win\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\PowerShell\7\;C:\Program Files\Git\cmd;C:\Program Files (x86)\gsudo\;C:\Users\saita\local\zig;C:\Users\saita\src\korg\x21212_NTS-1_digital_kit_mkII\tools\STM-OpenOCD\bin;C:\msys64\ucrt64\bin;C:\Users\saita\scoop\apps\yarn\current\global\node_modules\.bin;C:\Users\saita\scoop\apps\yarn\current\bin;C:\Users\saita\scoop\apps\gpg\current\bin;C:\Program Files\qemu;C:\Users\saita\local\ccls\Release;C:\Users\saita\local\llvm-project\Release\bin;C:\Users\saita\local\go\bin;C:\Users\saita\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\saita\AppData\Local\Programs\Python\Python310\;C:\Users\saita\scoop\apps\gcc\current\bin;C:\Users\saita\scoop\shims;C:\hugo_extended_0.83.1_Windows-64bit;C:\Program Files\Racket;C:\Users\saita\AppData\Roaming\xPacks\@xpack-dev-tools\qemu-arm\2.8.0-10.1\.content\bin;C:\Users\saita\.cargo\bin;C:\Users\saita\AppData\Roaming\Python\Python38\Scripts;C:\Ruby27-x64\bin;C:\Program Files (x86)\GnuWin32\bin;C:\Program Files\Microsoft Visual Studio\2022\Community\Msbuild\Current\Bin;C:\Users\saita\AppData\Local\Microsoft\WindowsApps;C:\Users\saita\AppData
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+KISYSMOD = C:\Program Files\KiCad\share\kicad\modules
+# environment
+PATH = C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\saita\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\CMake\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\PROGRA~1\JPKI;C:\Program Files (x86)\Calibre2\;C:\Program Files\LLVM\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\GTK2-Runtime\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\saita\local\gauche\bin;C:\Program Files\WezTerm;%NVM_HOME%;%NVM_SYMLINK%;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\usbipd-win\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\PowerShell\7\;C:\Program Files\Git\cmd;C:\Program Files (x86)\gsudo\;C:\Users\saita\local\zig;C:\Users\saita\src\korg\x21212_NTS-1_digital_kit_mkII\tools\STM-OpenOCD\bin;C:\msys64\ucrt64\bin;C:\Users\saita\scoop\apps\yarn\current\global\node_modules\.bin;C:\Users\saita\scoop\apps\yarn\current\bin;C:\Users\saita\scoop\apps\gpg\current\bin;C:\Program Files\qemu;C:\Users\saita\local\ccls\Release;C:\Users\saita\local\llvm-project\Release\bin;C:\Users\saita\local\go\bin;C:\Users\saita\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\saita\AppData\Local\Programs\Python\Python310\;C:\Users\saita\scoop\apps\gcc\current\bin;C:\Users\saita\scoop\shims;C:\hugo_extended_0.83.1_Windows-64bit;C:\Program Files\Racket;C:\Users\saita\AppData\Roaming\xPacks\@xpack-dev-tools\qemu-arm\2.8.0-10.1\.content\bin;C:\Users\saita\.cargo\bin;C:\Users\saita\AppData\Roaming\Python\Python38\Scripts;C:\Ruby27-x64\bin;C:\Program Files (x86)\GnuWin32\bin;C:\Program Files\Microsoft Visual Studio\2022\Community\Msbuild\Current\Bin;C:\Users\saita\AppData\Local\Microsoft\WindowsApps;C:\Users\saita\AppData
+# default
+MAKE_VERSION := 3.81
+# environment
+KICAD_SYMBOL_DIR = C:\Program Files\KiCad\share\kicad\library
+# makefile
+.DEFAULT_GOAL := 
+# environment
+GOROOT = C:\Users\saita\scoop\apps\go\current
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+GHCUP_MSYS2 = C:\msys64
+# environment
+LOCALAPPDATA = C:\Users\saita\AppData\Local
+# environment
+PSMODULEPATH = %ProgramFiles%\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files\Intel\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\PowerShell\Modules\
+# default
+MAKE_COMMAND := C:/Users/saita/scoop/apps/gow/current/bin/make
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# default
+.VARIABLES := 
+# environment
+PROGRAMDATA = C:\ProgramData
+# automatic
+*F = $(notdir $*)
+# environment
+NODE_PATH = C:\Users\saita\scoop\apps\yarn\current\global\node_modules
+# environment
+PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 8 Stepping 2, AuthenticAMD
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\ecbf079315066144589b597f7fc6ddca-1.70.1-main-sock
+# environment
+HOMEPATH = \Users\saita
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+SYSTEMROOT = C:\WINDOWS
+# environment
+_MSYS2_PREFIX = x86_64
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\saita\AppData\Roaming
+# environment
+NODIST_PREFIX = C:\Program Files (x86)\Nodist
+# environment
+TEMP = C:\Users\saita\AppData\Local\Temp
+# environment
+AMDRMPATH = C:\Program Files\AMD\RyzenMaster\
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# environment
+MSYSTEM = UCRT
+# environment
+CDS_HOME = C:\cds_spb_home
+# environment
+IDF_TOOLS_PATH = C:\Users\saita\.espressif
+# automatic
+<F = $(notdir $<)
+# environment
+PLATFORMIO_CALLER = vscode
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+PROCESSOR_REVISION = 0802
+# environment
+MAKELEVEL := 0
+# environment
+_MSYS2_BASH = C:\tools\msys64\usr\bin\bash.exe
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 23
+# environment
+VSCODE_PID = 1200
+# environment
+USERDOMAIN_ROAMINGPROFILE = KINORAMA
+# variable set hash-table stats:
+# Load=116/1024=11%, Rehash=0, Collisions=18/133=14%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# C:\Users\saita\scoop\apps\gcc\current\bin (key C:/Users/saita/scoop/apps/gcc/current/bin, mtime 1634523655): 32 files, no impossibilities.
+# C:\Users\saita\local\go\bin (key C:/Users/saita/local/go/bin, mtime 1654574829): 13 files, no impossibilities.
+# C:\Program Files\LLVM\bin (key C:/Program Files/LLVM/bin, mtime 1623050897): 110 files, no impossibilities.
+# C:\Program Files (x86)\GTK2-Runtime\bin (key C:/Program Files (x86)/GTK2-Runtime/bin, mtime 1626676309): 41 files, no impossibilities.
+# C:\Users\saita\scoop\apps\gpg\current\bin (key C:/Users/saita/scoop/apps/gpg/current/bin, mtime 1645522178): 32 files, no impossibilities.
+# C:\Program Files\qemu (key C:/Program Files/qemu, mtime 1643601925): 127 files, no impossibilities.
+# C:\WINDOWS\System32\WindowsPowerShell\v1.0\ (key C:/WINDOWS/System32/WindowsPowerShell/v1.0/, mtime 1649670038): 32 files, no impossibilities.
+# C:\Users\saita\scoop\apps\yarn\current\bin (key C:/Users/saita/scoop/apps/yarn/current/bin, mtime 1647455349): 7 files, no impossibilities.
+# C:\WINDOWS\System32\Wbem (key C:/WINDOWS/System32/Wbem, mtime 1655444363): 172 files, no impossibilities.
+# . (key d:/Users/saita/Documents/PlatformIO/Projects/esp32_lchika, mtime 1659834598): 11 files, no impossibilities.
+# C:\Users\saita\AppData\Local\Programs\Python\Python310\ (key C:/Users/saita/AppData/Local/Programs/Python/Python310/, mtime 1644225478): 18 files, no impossibilities.
+# C:\Program Files\WezTerm (key C:/Program Files/WezTerm, mtime 1646011945): 13 files, no impossibilities.
+# C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (key C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common, mtime 1643373061): 10 files, no impossibilities.
+# C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ (key C:/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/, mtime 1652324587): 12 files, no impossibilities.
+# C:\Users\saita\AppData\Local\Programs\Python\Python310\Scripts\ (key C:/Users/saita/AppData/Local/Programs/Python/Python310/Scripts/, mtime 1656324294): 27 files, no impossibilities.
+# C:\Users\saita\local\zig (key C:/Users/saita/local/zig, mtime 1658051831): 6 files, no impossibilities.
+# C:\Program Files\Microsoft SQL Server\120\DTS\Binn\ (key C:/Program Files/Microsoft SQL Server/120/DTS/Binn/, mtime 1652324604): 38 files, no impossibilities.
+# C:\Users\saita\local\ccls\Release (key C:/Users/saita/local/ccls/Release, mtime 1644635566): 10 files, no impossibilities.
+# C:\Users\saita\AppData\Roaming\Python\Python38\Scripts (key C:/Users/saita/AppData/Roaming/Python/Python38/Scripts, mtime 1624113037): 34 files, no impossibilities.
+# C:\ProgramData\chocolatey\bin (key C:/ProgramData/chocolatey/bin, mtime 1656826985): 15 files, no impossibilities.
+# C:\Program Files\dotnet\ (key C:/Program Files/dotnet/, mtime 1632986871): 11 files, no impossibilities.
+# C:\Program Files\Microsoft Visual Studio\2022\Community\Msbuild\Current\Bin (key C:/Program Files/Microsoft Visual Studio/2022/Community/Msbuild/Current/Bin, mtime 1650615966): 97 files, no impossibilities.
+# C:\msys64\ucrt64\bin (key C:/msys64/ucrt64/bin, mtime 1657427094): 338 files, no impossibilities.
+# C:\Program Files\nodejs: could not be stat'd.
+# C:\Program Files\usbipd-win\ (key C:/Program Files/usbipd-win/, mtime 1646390550): 137 files, no impossibilities.
+# C:\Program Files\PowerShell\7\ (key C:/Program Files/PowerShell/7/, mtime 1656042494): 478 files, no impossibilities.
+# C:\Users\saita\AppData\Roaming\nvm (key C:/Users/saita/AppData/Roaming/nvm, mtime 1649243002): 12 files, no impossibilities.
+# C:\Program Files (x86)\VMware\VMware Workstation\bin\ (key C:/Program Files (x86)/VMware/VMware Workstation/bin/, mtime 1658823463): 4 files, no impossibilities.
+# C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\ (key C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/, mtime 1652324604): 6 files, no impossibilities.
+# C:\WINDOWS\System32\OpenSSH\: could not be stat'd.
+# C:\Users\saita\scoop\apps\yarn\current\global\node_modules\.bin: could not be stat'd.
+# C:\Program Files (x86)\Common Files\Oracle\Java\javapath (key C:/Program Files (x86)/Common Files/Oracle/Java/javapath, mtime 1660030037): 5 files, no impossibilities.
+# C:\Program Files\Microsoft VS Code\bin (key C:/Program Files/Microsoft VS Code/bin, mtime 1660290804): 4 files, no impossibilities.
+# C:\Users\saita\src\korg\x21212_NTS-1_digital_kit_mkII\tools\STM-OpenOCD\bin (key C:/Users/saita/src/korg/x21212_NTS-1_digital_kit_mkII/tools/STM-OpenOCD/bin, mtime 1654065896): 3 files, no impossibilities.
+# C:\WINDOWS (key C:/WINDOWS, mtime 1602840444): 187 files, no impossibilities.
+# C:\Users\saita\scoop\shims (key C:/Users/saita/scoop/shims, mtime 1645522183): 301 files, no impossibilities.
+# C:\Ruby27-x64\bin (key C:/Ruby27-x64/bin, mtime 1631113084): 47 files, no impossibilities.
+# C:\Users\saita\AppData (key C:/Users/saita/AppData, mtime 1646273496): 5 files, no impossibilities.
+# C:\hugo_extended_0.83.1_Windows-64bit (key C:/hugo_extended_0.83.1_Windows-64bit, mtime 1622105285): 5 files, no impossibilities.
+# C:\Users\saita\local\gauche\bin (key C:/Users/saita/local/gauche/bin, mtime 1644125006): 11 files, no impossibilities.
+# C:\Users\saita\AppData\Local\Microsoft\WindowsApps (key C:/Users/saita/AppData/Local/Microsoft/WindowsApps, mtime 1659872511): 30 files, no impossibilities.
+# C:\Program Files (x86)\Calibre2\ (key C:/Program Files (x86)/Calibre2/, mtime 1646618334): 24 files, no impossibilities.
+# C:\Users\saita\.cargo\bin (key C:/Users/saita/.cargo/bin, mtime 1646190415): 18 files, no impossibilities.
+# C:\Program Files\Racket (key C:/Program Files/Racket, mtime 1651554531): 31 files, no impossibilities.
+# C:\Users\saita\AppData\Roaming\xPacks\@xpack-dev-tools\qemu-arm\2.8.0-10.1\.content\bin (key C:/Users/saita/AppData/Roaming/xPacks/@xpack-dev-tools/qemu-arm/2.8.0-10.1/.content/bin, mtime 1606964425): 14 files, no impossibilities.
+# C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\ (key C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/, mtime 1600568811): 144 files, no impossibilities.
+# C:\Program Files\Microsoft SQL Server\120\Tools\Binn\ (key C:/Program Files/Microsoft SQL Server/120/Tools/Binn/, mtime 1652324588): 14 files, no impossibilities.
+# C:\Program Files\Git\cmd (key C:/Program Files/Git/cmd, mtime 1656826747): 8 files, no impossibilities.
+# C:\WINDOWS\system32 (key C:/WINDOWS/system32, mtime 1660290615): 3219 files, no impossibilities.
+# %NVM_HOME%: could not be stat'd.
+# C:\Program Files\CMake\bin (key C:/Program Files/CMake/bin, mtime 1599437173): 7 files, no impossibilities.
+# C:\Program Files (x86)\gsudo\ (key C:/Program Files (x86)/gsudo/, mtime 1659945177): 8 files, no impossibilities.
+# C:\PROGRA~1\JPKI (key C:/PROGRA~1/JPKI, mtime 1647170012): 47 files, no impossibilities.
+# C:\Users\saita\local\llvm-project\Release\bin (key C:/Users/saita/local/llvm-project/Release/bin, mtime 1644633587): 244 files, no impossibilities.
+# C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR (key C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR, mtime 1643372341): 5 files, no impossibilities.
+# %NVM_SYMLINK%: could not be stat'd.
+# C:\Program Files (x86)\GnuWin32\bin (key C:/Program Files (x86)/GnuWin32/bin, mtime 1644636581): 107 files, no impossibilities.
+
+# 6331 files, no impossibilities in 57 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+makefile:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GNUmakefile:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# files hash-table stats:
+# Load=5/1024=0%, Rehash=0, Collisions=0/16=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 0
+# # of strcache buffers: 0
+# strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
+# strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
+
+# Finished Make data base on Fri Aug 12 16:54:58 2022
+
+ 
+make: *** No rule to make target `all'.  Stop.
+

@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "esp32_lchika",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"makefile.extensionOutputFolder": "./.vscode"
+	}
+}
