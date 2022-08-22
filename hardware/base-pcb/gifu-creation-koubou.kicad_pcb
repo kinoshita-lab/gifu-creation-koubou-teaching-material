@@ -5,6 +5,13 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "Gifu Creation Koubou Teaching Material")
+    (date "2022-08-21")
+    (rev "20220820")
+    (company "Kinoshtia Laboratory")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)
@@ -6292,6 +6299,24 @@
   )
   (gr_text "Seq" (at 114.5 132.5) (layer "F.SilkS") (tstamp fee6433c-c33a-46ea-8b66-3675e157c4ed)
     (effects (font (size 1.6 1.6) (thickness 0.4)))
+  )
+  (dimension (type aligned) (layer "User.1") (tstamp 6616040b-43df-427d-adbb-686415b76d78)
+    (pts (xy 260 20) (xy 260 160))
+    (height -7)
+    (gr_text "140.0000 mm" (at 265.85 90 90) (layer "User.1") (tstamp 9611eb5c-8e59-4054-927c-c885749d4b41)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (format (units 3) (units_format 1) (precision 4))
+    (style (thickness 0.15) (arrow_length 1.27) (text_position_mode 0) (extension_height 0.58642) (extension_offset 0.5) keep_text_aligned)
+  )
+  (dimension (type aligned) (layer "User.1") (tstamp be2aa21a-de8d-4f0f-af0d-151166ec7d77)
+    (pts (xy 50 20) (xy 260 20))
+    (height -6)
+    (gr_text "210.0000 mm" (at 155 12.85) (layer "User.1") (tstamp 91c53cdb-74dc-4b32-bcc4-f9081b7a45db)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (format (units 3) (units_format 1) (precision 4))
+    (style (thickness 0.15) (arrow_length 1.27) (text_position_mode 0) (extension_height 0.58642) (extension_offset 0.5) keep_text_aligned)
   )
 
   (segment (start 82.655 26.5) (end 85.46 23.695) (width 1) (layer "F.Cu") (net 1) (tstamp 08f1f5f5-5710-49a0-b31e-3c1314243712))

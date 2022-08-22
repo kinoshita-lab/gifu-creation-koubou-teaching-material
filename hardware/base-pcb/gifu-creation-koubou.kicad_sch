@@ -4,6 +4,13 @@
 
   (paper "A2")
 
+  (title_block
+    (title "Gifu Creation Koubou Teaching Material")
+    (date "2022-08-21")
+    (rev "20220820")
+    (company "Kinoshita Laboratory")
+  )
+
   (lib_symbols
     (symbol "Amplifier_Operational:NJM4580" (pin_names (offset 0.127)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at 0 5.08 0)
